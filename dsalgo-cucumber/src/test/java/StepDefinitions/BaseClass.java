@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import PageObjects.FrontPage;
 import PageObjects.HomePage;
+import PageObjects.RegisterPage;
 
 public class BaseClass {
 	
@@ -13,6 +14,7 @@ public class BaseClass {
 	public HomePage home;
 	
 	public FrontPage front;
+	public RegisterPage regist;
 	
 	
 	//creating random String for unique email

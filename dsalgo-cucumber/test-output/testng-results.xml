@@ -1,155 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="6" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-11T20:03:51 PDT" name="Default suite" finished-at="2023-08-11T20:04:06 PDT" duration-ms="15013">
+  <suite started-at="2023-08-12T09:45:59 PDT" name="Default suite" finished-at="2023-08-12T09:46:20 PDT" duration-ms="21259">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-08-11T20:03:51 PDT" name="Default test" finished-at="2023-08-11T20:04:06 PDT" duration-ms="15013">
+    <test started-at="2023-08-12T09:45:59 PDT" name="Default test" finished-at="2023-08-12T09:46:20 PDT" duration-ms="21259">
       <class name="TestRunner.TestRun">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-11T20:03:51 PDT" name="setUpClass" finished-at="2023-08-11T20:03:52 PDT" duration-ms="852" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:45:59 PDT" name="setUpClass" finished-at="2023-08-12T09:46:00 PDT" duration-ms="634" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5a2f016d]]>
+                <![CDATA[org.testng.TestRunner@619bd14c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-11T20:03:52 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-11T20:04:06 PDT" duration-ms="13505" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20316" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Click on DataStructure DropDown without login"]]>
+                <![CDATA["Check for Password mismatch"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Home"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-11T20:03:52 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-11T20:04:05 PDT" duration-ms="12444" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20332" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Click Sign In"]]>
+                <![CDATA["Check for empty field use case"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Home"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-11T20:03:52 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-11T20:04:04 PDT" duration-ms="11731" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20347" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Click on DataStructure DropDown without login"]]>
+                <![CDATA["Check for empty field use case"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Home"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-11T20:03:52 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-11T20:04:06 PDT" duration-ms="13505" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:18 PDT" duration-ms="18102" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Click on DataStructure DropDown without login"]]>
+                <![CDATA["Check for Password similar to username"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Home"]]>
+                <![CDATA["Register"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+at ✽.It should display an error message "password can’t be too similar to your other personal information."(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:64)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:19 PDT" duration-ms="19369" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for error message for commonly used password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+at ✽.It should display an error message "Password can’t be commonly used password"(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:80)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:17 PDT" duration-ms="17216" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for Password with only numbers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password can’t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password can’t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+at ✽.It should display an error message "Password can’t be entirely numeric."(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is succesfully able to register"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-11T20:03:52 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-11T20:04:06 PDT" duration-ms="14029" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20534" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Click on DataStructure DropDown without login"]]>
+                <![CDATA["Check for empty field use case"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Home"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-11T20:03:52 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-11T20:04:06 PDT" duration-ms="13457" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20456" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Click on DataStructure DropDown without login"]]>
+                <![CDATA["Check for empty field use case"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Home"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-11T20:03:52 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-11T20:04:06 PDT" duration-ms="14029" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="19887" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Click on DataStructure DropDown without login"]]>
+                <![CDATA["Check for error message for password with characters less than 8"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Home"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password should contain at least 8 characters] but found [password_mismatch:The two password fields didn’t match.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [password_mismatch:The two password fields didn’t match.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+at ✽.It should display an error message "Password should contain at least 8 characters"(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:96)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-11T20:03:52 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-11T20:04:05 PDT" duration-ms="12348" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Click Register"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Home"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-11T20:04:06 PDT" name="tearDownClass" finished-at="2023-08-11T20:04:06 PDT" duration-ms="63" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:20 PDT" name="tearDownClass" finished-at="2023-08-12T09:46:20 PDT" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

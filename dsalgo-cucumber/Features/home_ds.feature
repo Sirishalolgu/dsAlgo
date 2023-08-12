@@ -30,7 +30,7 @@ Scenario Outline: Click on Get Started of Each DataStructure Section without log
 
     Examples: 
       | option      |
-      |data-structures-introduction|
+      |data-structures-introduction|	
       | array      |
       | linked-list |
       | stack       |

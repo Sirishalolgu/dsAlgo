@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 		plugin = {"pretty", "html:target/cucumber.html"}, //reporting purpose
 		monochrome=true,  //console output color
 		 //tags from feature file
-		features = ".//Features/home.feature", //location of feature files
+		features = ".//Features/registerPage.feature",//location of feature files
 		dryRun=false,
 		glue= "StepDefinitions") 
 public class TestRun extends AbstractTestNGCucumberTests{

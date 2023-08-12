@@ -41,6 +41,14 @@ public class HomePage {
 		act.moveToElement(linkEle).perform();
 		linkEle.click();
 	}
+	
+	public void clickOnGetStartedOfEachSection(String option) {
+		Actions act = new Actions(driver);
+		WebElement linkEle = driver.findElement(By.xpath("//a[@href='"+option+"']"));
+		act.moveToElement(linkEle).perform();
+		linkEle.click();
+	}
+	
 
 	public void clickOnSignIn() {
 		SignIn.click();

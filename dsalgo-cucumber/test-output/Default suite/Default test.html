@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 11 20:03:51 PDT 2023</td>
+<td>Started on:</td><td>Sat Aug 12 09:45:59 PDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15013 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21259 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,111 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password similar to username", "Register"</td>
+<td><div><pre>java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+	at ✽.It should display an error message &quot;password can’t be too similar to your other personal information.&quot;(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:64)
+</pre></div><a href='#' onClick='toggleBox("stack-trace707747643", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace707747643'><pre>java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+	at ✽.It should display an error message &quot;password can’t be too similar to your other personal information.&quot;(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:64)
+</pre></div></td>
+<td>18</td>
+<td>TestRunner.TestRun@6bbe85a8</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error message for commonly used password", "Register"</td>
+<td><div><pre>java.lang.AssertionError: expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+	at ✽.It should display an error message &quot;Password can’t be commonly used password&quot;(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:80)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1068152016", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1068152016'><pre>java.lang.AssertionError: expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+	at ✽.It should display an error message &quot;Password can’t be commonly used password&quot;(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:80)
+</pre></div></td>
+<td>19</td>
+<td>TestRunner.TestRun@6bbe85a8</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password with only numbers", "Register"</td>
+<td><div><pre>java.lang.AssertionError: expected [Password can’t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+	at ✽.It should display an error message &quot;Password can’t be entirely numeric.&quot;(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:48)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1459446976", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1459446976'><pre>java.lang.AssertionError: expected [Password can’t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+	at ✽.It should display an error message &quot;Password can’t be entirely numeric.&quot;(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:48)
+</pre></div></td>
+<td>17</td>
+<td>TestRunner.TestRun@6bbe85a8</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error message for password with characters less than 8", "Register"</td>
+<td><div><pre>java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+	at ✽.It should display an error message &quot;Password should contain at least 8 characters&quot;(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:96)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2147463809", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2147463809'><pre>java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
+	at ✽.It should display an error message &quot;Password should contain at least 8 characters&quot;(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:96)
+</pre></div></td>
+<td>19</td>
+<td>TestRunner.TestRun@6bbe85a8</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,44 +181,34 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Home"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is succesfully able to register", "Register"</td>
 <td></td>
-<td>13</td>
+<td>20</td>
 <td>TestRunner.TestRun@6bbe85a8</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Home"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password mismatch", "Register"</td>
 <td></td>
-<td>12</td>
+<td>20</td>
 <td>TestRunner.TestRun@6bbe85a8</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Home"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Register"</td>
 <td></td>
-<td>11</td>
+<td>20</td>
 <td>TestRunner.TestRun@6bbe85a8</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Home"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Register"</td>
 <td></td>
-<td>13</td>
+<td>20</td>
 <td>TestRunner.TestRun@6bbe85a8</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Register", "Home"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Register"</td>
 <td></td>
-<td>12</td>
+<td>20</td>
 <td>TestRunner.TestRun@6bbe85a8</td></tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Home"</td>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Register"</td>
 <td></td>
-<td>14</td>
-<td>TestRunner.TestRun@6bbe85a8</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Home"</td>
-<td></td>
-<td>13</td>
-<td>TestRunner.TestRun@6bbe85a8</td></tr>
-<tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Home"</td>
-<td></td>
-<td>14</td>
+<td>20</td>
 <td>TestRunner.TestRun@6bbe85a8</td></tr>
 </table><p>
 </body>
