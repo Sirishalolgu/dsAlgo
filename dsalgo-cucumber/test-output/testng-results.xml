@@ -1,27 +1,618 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="6" failed="4" skipped="0">
+<testng-results ignored="0" total="40" passed="32" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-12T09:45:59 PDT" name="Default suite" finished-at="2023-08-12T09:46:20 PDT" duration-ms="21259">
+  <suite started-at="2023-08-24T11:11:46 PDT" name="Default suite" finished-at="2023-08-24T11:13:58 PDT" duration-ms="132031">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-08-12T09:45:59 PDT" name="Default test" finished-at="2023-08-12T09:46:20 PDT" duration-ms="21259">
-      <class name="TestRunner.TestRun">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:45:59 PDT" name="setUpClass" finished-at="2023-08-12T09:46:00 PDT" duration-ms="634" status="PASS">
+    <test started-at="2023-08-24T11:11:46 PDT" name="Default test" finished-at="2023-08-24T11:13:58 PDT" duration-ms="132031">
+      <class name="com.numpyninja.cluelesscoders.testrunner.TestRun">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:46 PDT" name="setUpClass" finished-at="2023-08-24T11:11:48 PDT" duration-ms="1594" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@619bd14c]]>
+                <![CDATA[org.testng.TestRunner@7efe7b87]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20316" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:13 PDT" duration-ms="25636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on DataStructure DropDown without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:09 PDT" duration-ms="21406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click Register"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:31 PDT" duration-ms="42892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to Try Here page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Data Structure page of the DS algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:18 PDT" duration-ms="30219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to Time Complexity page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Data Structure page of the DS algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:13 PDT" duration-ms="25705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on DataStructure DropDown without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:15 PDT" duration-ms="27373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on DataStructure DropDown without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:15 PDT" duration-ms="27667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to Data Structure introduction page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Data Structure page of the DS algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:18 PDT" duration-ms="30248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able run valid code in tryEditor for Time Complexity page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Data Structure data driven page of the DS algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:13 PDT" duration-ms="25686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click Sign In"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:11:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:14 PDT" duration-ms="25858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on DataStructure DropDown without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:09 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:18 PDT" duration-ms="8885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on DataStructure DropDown without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:13 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:28 PDT" duration-ms="14662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on DataStructure DropDown without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:13 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:28 PDT" duration-ms="14212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on Get Started of Each DataStructure Section without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:14 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:31 PDT" duration-ms="17298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on Get Started of Each DataStructure Section without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:14 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:29 PDT" duration-ms="15759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on Get Started of Each DataStructure Section without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:15 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:31 PDT" duration-ms="16031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on Get Started of Each DataStructure Section without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:15 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:32 PDT" duration-ms="16987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on Get Started of Each DataStructure Section without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:18 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:34 PDT" duration-ms="15682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on Get Started of Each DataStructure Section without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:18 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:30 PDT" duration-ms="11507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on Get Started of Each DataStructure Section without login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:18 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:31 PDT" duration-ms="12997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Register link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Signin page of the DS algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:28 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:48 PDT" duration-ms="19929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click Sign In"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Signin page of the DS algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:28 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:45 PDT" duration-ms="17399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click Sign In"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Signin page of the DS algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:29 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:54 PDT" duration-ms="24321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click Sign In"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Signin page of the DS algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:30 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:44 PDT" duration-ms="14902" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying signout link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Signin page of the DS algo application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=115.0.5790.173) 
+Host info: host: 'LAPTOP-RBLFDP3S', ip: '192.168.1.6'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=115.0.5790.173) 
+Host info: host: 'LAPTOP-RBLFDP3S', ip: '192.168.1.6'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
+at com.numpyninja.cluelesscoders.stepdefinitions.Steps.setup(Steps.java:55)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:31 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:13 PDT" duration-ms="42368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to Array using dropdown option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Linked list page of the Ds algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:31 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:09 PDT" duration-ms="37885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to Array next page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Linked list page of the Ds algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:31 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:02 PDT" duration-ms="31017" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to Linked list using dropdown option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Linked list page of the Ds algo application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc936aa957ee47af6494e5c636c1e93c, sendKeysToElement {id=3925D4E3E920A3F836661E81A7228B3A_element_45, value=[Ljava.lang.CharSequence;@470eaf97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\cnudr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58183/devtoo..., se:cdpVersion: 115.0.5790.173, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cc936aa957ee47af6494e5c636c1e93c)] -> xpath: //div[contains(@class, 'CodeMirror')]/div/textarea]
+Session ID: cc936aa957ee47af6494e5c636c1e93c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc936aa957ee47af6494e5c636c1e93c, sendKeysToElement {id=3925D4E3E920A3F836661E81A7228B3A_element_45, value=[Ljava.lang.CharSequence;@470eaf97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\cnudr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58183/devtoo..., se:cdpVersion: 115.0.5790.173, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cc936aa957ee47af6494e5c636c1e93c)] -> xpath: //div[contains(@class, 'CodeMirror')]/div/textarea]
+Session ID: cc936aa957ee47af6494e5c636c1e93c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+at com.numpyninja.cluelesscoders.pageobjects.StackPage.clickonTopics(StackPage.java:69)
+at com.numpyninja.cluelesscoders.stepdefinitions.Steps.user_click_on_topics_covered_with_links(Steps.java:345)
+at ✽.User click on topics covered with "Introduction,Creating Linked LIst,Types of Linked List,Implement Linked List in Python,Traversal,Insertion,Deletion" links(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/linkedlist.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:31 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:09 PDT" duration-ms="37735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to Queue using dropdown option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Linked list page of the Ds algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:32 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:50 PDT" duration-ms="17975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for empty field use case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:34 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:12:48 PDT" duration-ms="13907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for empty field use case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:44 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:01 PDT" duration-ms="16437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for empty field use case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:46 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:01 PDT" duration-ms="15455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for empty field use case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:03 PDT" duration-ms="15860" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,105 +628,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20332" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check for empty field use case"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20347" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check for empty field use case"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:18 PDT" duration-ms="18102" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check for Password similar to username"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
-at ✽.It should display an error message "password can’t be too similar to your other personal information."(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:64)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:19 PDT" duration-ms="19369" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check for error message for commonly used password"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
-at ✽.It should display an error message "Password can’t be commonly used password"(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:80)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:17 PDT" duration-ms="17216" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:00 PDT" duration-ms="11995" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -160,19 +653,19 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
-at ✽.It should display an error message "Password can’t be entirely numeric."(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:48)
+at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
+at ✽.It should display an error message "Password can’t be entirely numeric."(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:49)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20331" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:50 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:08 PDT" duration-ms="17596" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["The user is succesfully able to register"]]>
+                <![CDATA["Check for Password similar to username"]]>
               </value>
             </param>
             <param index="1">
@@ -181,14 +674,31 @@ at ✽.It should display an error message "Password can’t be entirely numeric.
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
+at ✽.It should display an error message "password can’t be too similar to your other personal information."(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:65)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20534" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:12:54 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:08 PDT" duration-ms="14632" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Check for empty field use case"]]>
+                <![CDATA["Check for error message for commonly used password"]]>
               </value>
             </param>
             <param index="1">
@@ -197,26 +707,27 @@ at ✽.It should display an error message "Password can’t be entirely numeric.
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
+at ✽.It should display an error message "Password can’t be commonly used password"(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="20456" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check for empty field use case"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-12T09:46:20 PDT" duration-ms="19887" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:13:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:09 PDT" duration-ms="9384" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -241,19 +752,126 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at StepDefinitions.Steps.it_should_display_an_error_message(Steps.java:98)
-at ✽.It should display an error message "Password should contain at least 8 characters"(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:96)
+at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
+at ✽.It should display an error message "Password should contain at least 8 characters"(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:97)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRun@6bbe85a8]" started-at="2023-08-12T09:46:20 PDT" name="tearDownClass" finished-at="2023-08-12T09:46:20 PDT" duration-ms="41" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:13:01 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:10 PDT" duration-ms="9072" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is succesfully able to register"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [New Account Created. You are logged in as Siri1231] but found [password_mismatch:The two password fields didn’t match.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [New Account Created. You are logged in as Siri1231] but found [password_mismatch:The two password fields didn’t match.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.numpyninja.cluelesscoders.stepdefinitions.Steps.the_user_should_be_redirected_to_homepage_with_the_message(Steps.java:191)
+at ✽.The user should be redirected to Homepage with the message "New Account Created. You are logged in as Siri1231"(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/registerPage.feature:114)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:13:01 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:16 PDT" duration-ms="14703" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to stack using dropdown option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the stack page of the Ds algo application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [630eab7ac42e06490c560a0527b5bf21, sendKeysToElement {id=0C86EB401BD243DAB18D6DC918DFA109_element_41, value=[Ljava.lang.CharSequence;@242e77c1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\cnudr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58609/devtoo..., se:cdpVersion: 115.0.5790.173, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (630eab7ac42e06490c560a0527b5bf21)] -> xpath: //div[contains(@class, 'CodeMirror')]/div/textarea]
+Session ID: 630eab7ac42e06490c560a0527b5bf21]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [630eab7ac42e06490c560a0527b5bf21, sendKeysToElement {id=0C86EB401BD243DAB18D6DC918DFA109_element_41, value=[Ljava.lang.CharSequence;@242e77c1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\cnudr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58609/devtoo..., se:cdpVersion: 115.0.5790.173, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (630eab7ac42e06490c560a0527b5bf21)] -> xpath: //div[contains(@class, 'CodeMirror')]/div/textarea]
+Session ID: 630eab7ac42e06490c560a0527b5bf21
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+at com.numpyninja.cluelesscoders.pageobjects.StackPage.clickonTopics(StackPage.java:69)
+at com.numpyninja.cluelesscoders.stepdefinitions.Steps.user_click_on_topics_covered_with_links(Steps.java:345)
+at ✽.User click on topics covered with "Operations in Stack,Implementation,Applications" links(file:///C:/Users/cnudr/git/dsAlgo/dsalgo-cucumber/./Features/stack.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:13:02 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:13:57 PDT" duration-ms="55078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to Tree using dropdown option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Linked list page of the Ds algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.numpyninja.cluelesscoders.testrunner.TestRun@5890e879]" started-at="2023-08-24T11:13:57 PDT" name="tearDownClass" finished-at="2023-08-24T11:13:58 PDT" duration-ms="850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- TestRunner.TestRun -->
+      </class> <!-- com.numpyninja.cluelesscoders.testrunner.TestRun -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
