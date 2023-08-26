@@ -316,47 +316,7 @@ public class Steps extends BaseClass {
 
 	}
 
-	// stack
-
-	@When("User click on stack from the dropdown")
-	public void user_click_on_stack_from_the_dropdown() throws InterruptedException {
-
-		stack.selectStackList();
-		Thread.sleep(2000);
-
-	}
-
-	@Then("Stack page is displayed")
-	public void Stack_page_is_displayed() {
-
-		expected = "https://dsportalapp.herokuapp.com/Stack/";
-		actual = stack.getPageUrl();
-		Assert.assertTrue(expected.equalsIgnoreCase(actual));
-
-	}
-
-	@Then("User is on Stack page")
-	public void user_is_on_stack_page() {
-		System.out.println("On Stack Page");
-	}
-
-	@When("User click on topics covered with {string} links")
-	public void user_click_on_topics_covered_with_links(String string) throws Exception  {
-		stack.clickonTopics(string);
-
-	}
-
-	@And("User click on try here button")
-	public void user_click_on_try_here_button() throws InterruptedException {
-		stack.clickonTryHere();
-	}
-
-	@Then("User clicks on pratice question")
-	public void user_clicks_on_pratice_question() {
-
-	}
-
-	// Linked list
+		// Linked list
 
 	@Then("Linked List page is displayed")
 	public void linked_list_page_is_displayed() {
@@ -366,7 +326,7 @@ public class Steps extends BaseClass {
 
 	}
 
-	//Arrays
+	 //Arrays
     
     
     
@@ -383,7 +343,7 @@ Assert.assertTrue(expected.equalsIgnoreCase(actual));
     	array.clickonPracticeQues();
     	
     }
-
+    
     @Then("new array page opens")
     public void new_array_page_opens() {
     	expected = "https://dsportalapp.herokuapp.com/array/practice";
@@ -393,7 +353,7 @@ Assert.assertTrue(expected.equalsIgnoreCase(actual));
     
     @When("click on topics covered with {string}")
     public void click_on_topics_covered_with_string(String string) throws InterruptedException {
-    	array.runandsubmit(string);
+    	array.clickOnrun(string);
     	
     	
     }
@@ -401,7 +361,81 @@ Assert.assertTrue(expected.equalsIgnoreCase(actual));
     public void new_page_displayed() {
     	System.out.println("https://dsportalapp.herokuapp.com/question/");
     }
+
+    @And("User clicks on run button")
+    public void user_clicks_on_run_button() {
+    	array.newPagetopics();
+    }
     
+    
+    
+//stack
+
+@When("User click on stack from the dropdown")
+public void user_click_on_stack_from_the_dropdown() throws InterruptedException {
+
+stack.selectStackList();
+Thread.sleep(2000);
+
+}
+
+@Then("Stack page is displayed")
+public void Stack_page_is_displayed() {
+
+expected = "https://dsportalapp.herokuapp.com/Stack/";
+actual = stack.getPageUrl();
+Assert.assertTrue(expected.equalsIgnoreCase(actual));
+
+}
+
+@Then("User is on Stack page")
+public void user_is_on_stack_page() {
+System.out.println("On Stack Page");
+}
+
+
+
+
+@When("User click on topics covered with {string} links")
+public void user_click_on_topics_covered_with_links(String string) throws InterruptedException {
+stack.clickonTopics(string);
+
+}
+
+
+@And("User click on try here button")
+public void user_click_on_try_here_button() throws InterruptedException {
+stack.clickonTryHere();
+}
+
+
+
+
+@Then("User clicks on pratice question")
+public void user_clicks_on_pratice_question() {
+stack.clickOnPraticeQues();
+
+}
+
+
+//tree
+
+@Then("Tree page is displayed")
+public void Tree_page_is_displayed() {
+expected = "https://dsportalapp.herokuapp.com/tree/";
+actual = stack.getPageUrl();
+Assert.assertTrue(expected.equalsIgnoreCase(actual));
+
+}
+//queue
+@Then("Queue page is displayed")
+public void queue_page_is_displayed() {
+expected = "https://dsportalapp.herokuapp.com/queue/";
+actual = stack.getPageUrl();
+Assert.assertTrue(expected.equalsIgnoreCase(actual));
+
+}
+
 	@After
 	public void afterScenario(Scenario scenario) {
 

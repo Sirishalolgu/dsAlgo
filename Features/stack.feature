@@ -11,17 +11,26 @@ Background: The user is logged in to DS Algo portal
    			 Then The user click on login button
  
     
-     @pageLaunch
-  Scenario Outline: User is able to navigate to stack using dropdown option
-    When User click on stack from the dropdown
+       @pageLaunch
+  Scenario Outline: User is able to navigate to Stack using dropdown option
+  
+     When User click on Data Structure DropDown
+    And User click on "Stack"
     Then Stack page is displayed
     When User click on topics covered with "<topic>" links 
-     And User click on try here button
+     When The user clicks Try Here button on Time Complexity page
+    Then Page Title should be "Assessment"
+    When The user enter python code in tryEditor from sheet "<Sheetname>" and "<rowNumber>"
+    And The user clicks on run button
+    Then The user should be presented with Run result
     
-      
+    
+    
     Examples:
-    |topic|                                                                                  
-    |Operations in Stack,Implementation,Applications|
+   |topic|                                                                       
+    |Operations in Stack|
+    |Implementation|
+    |Applications|
     
                                                       
   
