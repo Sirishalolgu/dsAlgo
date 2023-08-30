@@ -101,8 +101,7 @@
 	</dependencies>
 
 
-
-<build>
+	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -116,11 +115,24 @@
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>3.0.2</version>
+					<configuration>
+						<outputDirectory>target</outputDirectory>
+						<testResources>
+							<resource>
+								<directory>dsalgo/src/test/resources/testdata</directory>
+							</resource>
+						</testResources>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>${maven.surefire.plugin.version}</version>
 					<configuration>
-					<!-- <testClassesDirectory>s360UIAutomationCC/src/main/java</testClassesDirectory> -->
-					<testSourceDirectory>dsalgo/src/test/java</testSourceDirectory> 
+						<!-- <testClassesDirectory>s360UIAutomationCC/src/main/java</testClassesDirectory> -->
+						<testSourceDirectory>dsalgo/src/test/java</testSourceDirectory>
 						<includes>
 							<include>**/*TestRun.java</include>
 						</includes>
@@ -132,11 +144,7 @@
 	</build>
 
 
-
-
-
-
-<!--
+	<!--
 
 
 	<build>

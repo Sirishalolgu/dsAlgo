@@ -12,6 +12,7 @@ import com.numpyninja.cluelesscoders.pageobjects.HomePage;
 import com.numpyninja.cluelesscoders.pageobjects.RegisterPage;
 import com.numpyninja.cluelesscoders.pageobjects.SignPage;
 import com.numpyninja.cluelesscoders.pageobjects.StackPage;
+import com.numpyninja.cluelesscoders.pageobjects.graphPage;
 
 public class BaseClass {
 	
@@ -25,6 +26,7 @@ public class BaseClass {
 	public DataStructurePage dataStructure;
 	public StackPage stack;
 	public ArrayPage array;
+	public graphPage graph;
 	
 	public Properties configProp;
 	//creating random String for unique email

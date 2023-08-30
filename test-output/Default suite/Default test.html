@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>64/5/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>66/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 26 09:47:43 PDT 2023</td>
+<td>Started on:</td><td>Tue Aug 29 19:03:11 PDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>139 seconds (139519 ms)</td>
+<tr><td>Total time:</td><td>118 seconds (118533 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,28 +76,28 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password similar to username", "Optional[Register]"</td>
-<td><div><pre>java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is succesfully able to register", "Optional[Register]"</td>
+<td><div><pre>java.lang.AssertionError: expected [New Account Created. You are logged in as Siri1234] but found [password_mismatch:The two password fields didn’t match.]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
-	at ✽.It should display an error message &quot;password can’t be too similar to your other personal information.&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:65)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2076174398", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2076174398'><pre>java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
+	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.the_user_should_be_redirected_to_homepage_with_the_message(Steps.java:184)
+	at ✽.The user should be redirected to Homepage with the message &quot;New Account Created. You are logged in as Siri1234&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:114)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1502279250", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1502279250'><pre>java.lang.AssertionError: expected [New Account Created. You are logged in as Siri1234] but found [password_mismatch:The two password fields didn’t match.]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
-	at ✽.It should display an error message &quot;password can’t be too similar to your other personal information.&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:65)
+	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.the_user_should_be_redirected_to_homepage_with_the_message(Steps.java:184)
+	at ✽.The user should be redirected to Homepage with the message &quot;New Account Created. You are logged in as Siri1234&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:114)
 </pre></div></td>
-<td>9</td>
+<td>11</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error message for commonly used password", "Optional[Register]"</td>
@@ -108,68 +108,20 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
+	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:178)
 	at ✽.It should display an error message &quot;Password can’t be commonly used password&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1891314397", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1891314397'><pre>java.lang.AssertionError: expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
+</pre></div><a href='#' onClick='toggleBox("stack-trace160638795", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace160638795'><pre>java.lang.AssertionError: expected [Password can’t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
+	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:178)
 	at ✽.It should display an error message &quot;Password can’t be commonly used password&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:81)
-</pre></div></td>
-<td>11</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is succesfully able to register", "Optional[Register]"</td>
-<td><div><pre>java.lang.AssertionError: expected [New Account Created. You are logged in as Siri1231] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.the_user_should_be_redirected_to_homepage_with_the_message(Steps.java:191)
-	at ✽.The user should be redirected to Homepage with the message &quot;New Account Created. You are logged in as Siri1231&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:114)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1581232358", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1581232358'><pre>java.lang.AssertionError: expected [New Account Created. You are logged in as Siri1231] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.the_user_should_be_redirected_to_homepage_with_the_message(Steps.java:191)
-	at ✽.The user should be redirected to Homepage with the message &quot;New Account Created. You are logged in as Siri1231&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:114)
 </pre></div></td>
 <td>14</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password with only numbers", "Optional[Register]"</td>
-<td><div><pre>java.lang.AssertionError: expected [Password can’t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
-	at ✽.It should display an error message &quot;Password can’t be entirely numeric.&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:49)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1147640875", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1147640875'><pre>java.lang.AssertionError: expected [Password can’t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
-	at ✽.It should display an error message &quot;Password can’t be entirely numeric.&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:49)
-</pre></div></td>
-<td>13</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error message for password with characters less than 8", "Optional[Register]"</td>
@@ -180,20 +132,68 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
+	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:178)
 	at ✽.It should display an error message &quot;Password should contain at least 8 characters&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:97)
-</pre></div><a href='#' onClick='toggleBox("stack-trace582671348", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace582671348'><pre>java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [password_mismatch:The two password fields didn’t match.]
+</pre></div><a href='#' onClick='toggleBox("stack-trace657551752", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace657551752'><pre>java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [password_mismatch:The two password fields didn’t match.]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:185)
+	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:178)
 	at ✽.It should display an error message &quot;Password should contain at least 8 characters&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:97)
 </pre></div></td>
-<td>19</td>
+<td>6</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password with only numbers", "Optional[Register]"</td>
+<td><div><pre>java.lang.AssertionError: expected [Password can’t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:178)
+	at ✽.It should display an error message &quot;Password can’t be entirely numeric.&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1287743164", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1287743164'><pre>java.lang.AssertionError: expected [Password can’t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:178)
+	at ✽.It should display an error message &quot;Password can’t be entirely numeric.&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:49)
+</pre></div></td>
+<td>16</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password similar to username", "Optional[Register]"</td>
+<td><div><pre>java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:178)
+	at ✽.It should display an error message &quot;password can’t be too similar to your other personal information.&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:65)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1901055968", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1901055968'><pre>java.lang.AssertionError: expected [password can’t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.numpyninja.cluelesscoders.stepdefinitions.Steps.it_should_display_an_error_message(Steps.java:178)
+	at ✽.It should display an error message &quot;password can’t be too similar to your other personal information.&quot;(file:///C:/Users/cnudr/git/dsAlgo/./Features/registerPage.feature:65)
+</pre></div></td>
+<td>8</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -205,79 +205,29 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Try Here page", "Optional[Testing Data Structure page of the DS algo application]"</td>
 <td></td>
-<td>20</td>
+<td>26</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
 <td></td>
-<td>25</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
-<td></td>
-<td>19</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
-<td></td>
-<td>27</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
-<td></td>
-<td>23</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
-<td></td>
-<td>20</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>27</td>
+<td>10</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
 <td></td>
-<td>14</td>
+<td>9</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Time Complexity page", "Optional[Testing Data Structure page of the DS algo application]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
 <td></td>
-<td>29</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
-<td></td>
-<td>24</td>
+<td>12</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
 <td></td>
-<td>17</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
-<td></td>
-<td>21</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>21</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>19</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Home]"</td>
-<td></td>
-<td>24</td>
+<td>11</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
@@ -285,7 +235,17 @@ function toggleAllBoxes() {
 <td>18</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password mismatch", "Optional[Register]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
+<td></td>
+<td>11</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
+<td></td>
+<td>15</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
 <td></td>
 <td>17</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
@@ -295,149 +255,29 @@ function toggleAllBoxes() {
 <td>22</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Data Structure introduction page", "Optional[Testing Data Structure page of the DS algo application]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to graph using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
 <td></td>
-<td>27</td>
+<td>19</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
 <td></td>
 <td>13</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>18</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>24</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Register", "Optional[Home]"</td>
-<td></td>
-<td>20</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
-<td></td>
-<td>18</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
-<td></td>
-<td>14</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
-<td></td>
-<td>12</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
-<td></td>
-<td>9</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>9</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
-<td></td>
-<td>29</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>20</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
-<td></td>
-<td>15</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>11</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>30</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>21</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying Register link", "Optional[Testing Signin page of the DS algo application]"</td>
-<td></td>
-<td>20</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
-<td></td>
-<td>9</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
-<td></td>
-<td>17</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>21</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
 <td></td>
 <td>16</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
 <td></td>
-<td>26</td>
+<td>14</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Data Structure introduction page", "Optional[Testing Data Structure page of the DS algo application]"</td>
 <td></td>
-<td>9</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
-<td></td>
-<td>15</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
-<td></td>
-<td>18</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
-<td></td>
-<td>21</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
-<td></td>
-<td>12</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
-<td></td>
-<td>12</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
-<td></td>
-<td>11</td>
+<td>27</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
@@ -447,7 +287,32 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
 <td></td>
-<td>26</td>
+<td>14</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td></td>
+<td>8</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
+<td></td>
+<td>11</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td></td>
+<td>15</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td></td>
+<td>7</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td></td>
+<td>10</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
@@ -455,29 +320,34 @@ function toggleAllBoxes() {
 <td>20</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
-<td></td>
-<td>24</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
 <td></td>
-<td>23</td>
+<td>13</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signout link", "Optional[Testing Signin page of the DS algo application]"</td>
 <td></td>
-<td>21</td>
+<td>15</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
 <td></td>
-<td>16</td>
+<td>17</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Try Here page", "Optional[Testing Data Structure page of the DS algo application]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
 <td></td>
-<td>26</td>
+<td>9</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>14</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>8</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
 <td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able run valid code in tryEditor for Time Complexity page", "Optional[Testing Data Structure data driven page of the DS algo application]"</td>
@@ -485,44 +355,184 @@ function toggleAllBoxes() {
 <td>28</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for Password mismatch", "Optional[Register]"</td>
 <td></td>
-<td>7</td>
+<td>9</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
-<td></td>
-<td>15</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
-<td></td>
-<td>24</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
-<td></td>
-<td>16</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
-<td></td>
-<td>26</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
-<td></td>
-<td>22</td>
-<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
-<tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
 <td></td>
 <td>14</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 <tr>
-<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
+<td></td>
+<td>22</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Home]"</td>
+<td></td>
+<td>20</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td></td>
+<td>23</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>13</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
+<td></td>
+<td>5</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>20</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>23</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
+<td></td>
+<td>17</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>20</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
 <td></td>
 <td>26</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Sign In", "Optional[Testing Signin page of the DS algo application]"</td>
+<td></td>
+<td>14</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td></td>
+<td>17</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
+<td></td>
+<td>5</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get Started of Each DataStructure Section without login", "Optional[Home]"</td>
+<td></td>
+<td>7</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>17</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to graph using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td></td>
+<td>14</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying Register link", "Optional[Testing Signin page of the DS algo application]"</td>
+<td></td>
+<td>15</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on DataStructure DropDown without login", "Optional[Home]"</td>
+<td></td>
+<td>26</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
+<td></td>
+<td>19</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>23</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Time Complexity page", "Optional[Testing Data Structure page of the DS algo application]"</td>
+<td></td>
+<td>27</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array next page", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>15</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>17</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td></td>
+<td>23</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Array using dropdown option", "Optional[Testing the Array page of the Ds algo application]"</td>
+<td></td>
+<td>15</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>12</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Stack using dropdown option", "Optional[Testing the stack page of the Ds algo application]"</td>
+<td></td>
+<td>18</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for empty field use case", "Optional[Register]"</td>
+<td></td>
+<td>10</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>17</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>10</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Tree using dropdown option", "Optional[Testing the Tree page of the Ds algo application]"</td>
+<td></td>
+<td>18</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Register", "Optional[Home]"</td>
+<td></td>
+<td>23</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Linked list using dropdown option", "Optional[Testing the Linked list page of the Ds algo application]"</td>
+<td></td>
+<td>14</td>
+<td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
+<tr>
+<td title='com.numpyninja.cluelesscoders.testrunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: com.numpyninja.cluelesscoders.testrunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is able to navigate to Queue using dropdown option", "Optional[Testing the Queue page of the Ds algo application]"</td>
+<td></td>
+<td>14</td>
 <td>com.numpyninja.cluelesscoders.testrunner.TestRun@19932c16</td></tr>
 </table><p>
 </body>

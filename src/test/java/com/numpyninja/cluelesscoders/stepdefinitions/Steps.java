@@ -1,19 +1,10 @@
 package com.numpyninja.cluelesscoders.stepdefinitions;
 
-import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Properties;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
@@ -25,6 +16,7 @@ import com.numpyninja.cluelesscoders.pageobjects.HomePage;
 import com.numpyninja.cluelesscoders.pageobjects.RegisterPage;
 import com.numpyninja.cluelesscoders.pageobjects.SignPage;
 import com.numpyninja.cluelesscoders.pageobjects.StackPage;
+import com.numpyninja.cluelesscoders.pageobjects.graphPage;
 import com.numpyninja.cluelesscoders.utilities.ExcelUtils;
 import com.numpyninja.cluelesscoders.utilities.LoggerLoad;
 
@@ -70,6 +62,7 @@ public class Steps extends BaseClass {
 		signIn = new SignPage(driver);
 		stack = new StackPage(driver);
 		array=new ArrayPage(driver);
+		graph=new graphPage(driver);
 		dataStructure = new DataStructurePage(driver);
 	}
 
@@ -435,6 +428,22 @@ actual = stack.getPageUrl();
 Assert.assertTrue(expected.equalsIgnoreCase(actual));
 
 }
+
+//graph
+@Then("graph page is displayed")
+public void graph_page_is_displayed() {
+	expected = "https://dsportalapp.herokuapp.com/graph/";
+	actual = stack.getPageUrl();
+	Assert.assertTrue(expected.equalsIgnoreCase(actual));
+
+}
+
+@When("User click on options of graph {string} links")
+public void user_click_on_options_of_graph_links(String option) {
+  graph.clickonoptions(option);
+
+}
+
 
 	@After
 	public void afterScenario(Scenario scenario) {

@@ -8,6 +8,7 @@ com\numpyninja\cluelesscoders\pageobjects\DataStructurePage.class
 com\numpyninja\cluelesscoders\pageobjects\StackPage.class
 com\numpyninja\cluelesscoders\utilities\LoggerLoad.class
 com\numpyninja\cluelesscoders\pageobjects\LinkedListPage.class
+com\numpyninja\cluelesscoders\pageobjects\graphPage.class
 com\numpyninja\cluelesscoders\pageobjects\SignPage.class
 com\numpyninja\cluelesscoders\stepdefinitions\BaseClass.class
 com\numpyninja\cluelesscoders\testrunner\TestRun.class

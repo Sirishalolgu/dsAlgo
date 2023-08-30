@@ -115,7 +115,7 @@ Feature: Register
       
        Examples:
       |username   |password|password confirmation|
-      | Siri1231| test5678 | test5678 |  
+      | Siri1234| test5678 | test5678 |  
       
        
       
